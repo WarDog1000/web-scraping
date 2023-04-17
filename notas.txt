@@ -1,0 +1,30 @@
+Iniciar pryecto en Node.js
+    create new terminal | ctrl + shift + 5
+    npm init -y
+  Crea un archivo llamado package.json que describe nuestro script
+    - cual es el script principal
+    - como podemos arrancarlo
+    - lista las dependencias
+
+Instalar las dependencias
+    - npm install cheerio
+    - npm install request
+    -npm install request-promise
+  npm i cheerio request request-promise
+
+* Cheerio (https://cheerio.js.org/docs/basics/loading)
+  Permite escanear un sitio web
+
+* Request npm (https://www.npmjs.com/package/request)
+  Permite hacer peticiones http y traer la informacion de la pagina
+  'utiliza Async/Await'
+
+* Request-promise (https://www.npmjs.com/package/request)
+  Permite manejar peticiones http y manejar las respuestas utilizando funciones asincronas
+
+
+(https://toscrape.com/)
+  Posee sitios web que puedes analizar de forma cencilla
+
+Ejecutar el script
+  - node index.js
